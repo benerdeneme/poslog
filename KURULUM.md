@@ -13,7 +13,20 @@
 
 ---
 
-## Kurulum — her şubede (~3 dk, bir kez)
+## ⚡ Tek komutla kurulum (en kolay)
+
+**Başlat → cmd** (veya PowerShell) aç, şunu yapıştır + Enter:
+
+```
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/benerdeneme/poslog/master/kur.ps1 | iex"
+```
+
+Bu otomatik: GitHub'dan indirir → **Belgeler\poslog**'a kurar → görevleri kurar → `chrome://extensions` açar.
+Sonra sadece aşağıdaki **4. adımı** (eklentiyi 3 tıkla yükle) yapman yeter.
+
+---
+
+## Manuel kurulum — her şubede (~3 dk, bir kez)
 
 ### 1. Klasörü indir
 - https://github.com/benerdeneme/poslog → yeşil **Code** → **Download ZIP** → bir yere çıkar (örn. Belgeler).
