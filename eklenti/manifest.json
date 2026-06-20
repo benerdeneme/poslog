@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "POS Otomatik Giriş",
+  "version": "1.0",
+  "description": "Panel otomatik yeniden giriş + her sabah 08:00 sayfa yenileme.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+YY/zhWmHGqH/QXgH4dYHlGWR/EBMvd6EdfqATEpQ5oqdfM2uxW1Ij0ErOYUSWCsaZvscwPmQ7d/MEb60WOJ5/frGU5NqqDvNqCmDTzMBJ1ChwbeS2QxxK8V9W4E97ctt0JoCylagAf83QlrRxb3m2aHcqXEvOt5fzBDR3oDX99ijus7OCHKXAz1BJUmt6aMB4GHFcuLGbC362b8Y9wLoKWApwz+0FqODCF1SpkROJ8QsThf2aNcWrA/sGHWv3+y+ggQZwuUAnfc9vx5I/IZbIKdyGA7RAVVUqaAHULFZatDPtQoaUA6biCza4Pf9xIhaKbfMiizFDe/hw9Sp7NWQIDAQAB",
+  "content_scripts": [
+    {
+      "matches": ["https://pm01.robotpos.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

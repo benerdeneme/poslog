@@ -1,0 +1,6 @@
+# Gizli imza anahtarı — ASLA paylaşma
+eklenti.pem
+# Üretilen binary / yerel dosyalar
+eklenti.crx
+update.xml
+token.txt
